@@ -63,6 +63,14 @@ Google Brainのチームは、プリンストン大学と提携し、人工呼�
 - Join!!!
 - 初Kaggle日記、うまくワークするか試したい
 - [yukiさんのKaggle日記](https://github.com/Yuki-Tanaka-33937424/kaggle-RANZCR/blob/main/README.md)を参考にさせてもらいました
+- nb001（EDA）
+  - いったん何も見ずに、軽くEDA
+  - Sweetvizも使用
+  - 以下のことがわかった
+    - 1つの`breath_id`に占めるレコード数：80
+    - `u_out`が「１」になると、`pressure`がガクンと下がっている（若干のラグあり）
+    - `u_out`が「0→1」になった瞬間、`u_in`は 0 に下がり、その後徐々に上がっていく
+    - `R`と`C`は属性値のため不変
 
 
 
